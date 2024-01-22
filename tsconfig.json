@@ -2,12 +2,12 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
-        "outDir": "./src",
+        "outDir": "script",
         "rootDir": "./",
         "strict": true
     },
     "include": [
-        "*.ts"
+        "**/*.ts"
     ],
     "exclude": [
         "node_modules"
